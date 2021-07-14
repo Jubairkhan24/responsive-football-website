@@ -6,12 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* .half-width {
-    width: 50%;
-}
-.extra-half {
-    width: 50%;
-} */
 .one-third-width {
     width: 30%;
     height: 300px;
@@ -65,7 +59,7 @@ body {
     height: 440px;
 }
 
-/* about section */
+/* about section and best players section */
 
 .about-section {
     margin-bottom: 100px;
@@ -89,7 +83,6 @@ body {
 .card-details {
     height: 456px;
     width: 300px;
-    /* padding: 16px 39px; */
 }
 .card-details h1 {
     font-weight: bold;
@@ -110,6 +103,8 @@ body {
     font-size: 28px;
     line-height: 40px;
 }
+
+/* about section and best players section ends */
 
 /* football club section */
 
@@ -199,7 +194,7 @@ footer {
         height: 286px;
     }
 
-/* header ends */
+    /* header ends */
 
     .about-section {
         width: 100%;
@@ -268,18 +263,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         flex-direction: column;
     }
-    /* .football-club-info {
-        width: 100%;
-    }
-    .all-clubs-info {
-        
-        grid-template-columns: repeat(1, 1fr);
-       
-    }
-    .club-info {
-        flex-direction: column;
-    }  */
-
     .football-club-info {
         width: 86%;
         display: flex;
