@@ -180,11 +180,12 @@ footer {
 
      /* header */
 
-    .half-selection {
+    .half-section {
         display: flex;
         flex-direction: column;
         padding-top: 50px;
         padding-left: 15px;
+        width: 128%;
     }
     .header-contents {
         padding: 0px;
@@ -192,7 +193,7 @@ footer {
     }
 
     .half-width {
-        padding-top: 542px;
+        padding-top: 60px;
     }
     .half-width img {
         width: 335px;
@@ -203,6 +204,7 @@ footer {
 
     .about-section {
         width: 100%;
+        margin-left: -32px;
         
     }
     .profile-details {
@@ -230,30 +232,35 @@ footer {
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     
-/* header */
+    /* header */
 
-.half-selection {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-left: 15px;
-}
-.header-contents {
-    padding: 0px;
-    margin: 0px;
-}
+    .half-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #2D25A0;
+        padding-top: 150px;
+        padding-bottom: 80px;
+        margin-bottom: 55px;
+        width: 100%;
+    }
+    .header-contents {
+        padding-left: 220px;
+        margin-top: -180px;
+    }
+    .half-width {
+        padding-top: 80px;
+        padding-left: 220px;
+    }    
+    .half-width img {
+        width: 335px;
+        height: 286px;
+    }
 
-.half-width {
-    padding-top: 542px;
-}
-.half-width img {
-    width: 335px;
-    height: 286px;
-}
+    /* header ends */
 
     .about-section {
         width: 100%;
-        
+        margin-left: -69px;
     }
     .profile-details {
         grid-template-columns: repeat(2, 1fr);
